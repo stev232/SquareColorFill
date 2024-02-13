@@ -13,12 +13,6 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SquareColorFill">
-        <activity
-            android:name=".HowToPlay3"
-            android:exported="false" />
-        <activity
-            android:name=".HowToPlay2"
-            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -44,6 +38,16 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".GamePageLarge"
+            android:alwaysRetainTaskState="true"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScorePage"
+            android:alwaysRetainTaskState="true"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlayPage"
             android:alwaysRetainTaskState="true"
             android:exported="false"
             android:screenOrientation="portrait" />

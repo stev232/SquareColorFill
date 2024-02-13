@@ -168,22 +168,15 @@ public class LandingPage extends AppCompatActivity {
     }
 
     //This method is an onClick event from the landing_page.xml file and will start the GamePageSmall java file
-    public void easy(View view) {
-        Intent intent = new Intent(this, GamePageSmall.class);
-        finish();
-        startActivity(intent);
-    }
-
-    //This method is an onClick event from the landing_page.xml file and will start the GamePageMedium java file
-    public void medium(View view) {
-        Intent intent = new Intent(this, GamePageMedium.class);
+    public void playPage(View view) {
+        Intent intent = new Intent(this, PlayPage.class);
         finish();
         startActivity(intent);
     }
 
     //This method is an onClick event from the landing_page.xml file and will start the GamePageLarge java file
-    public void hard(View view) {
-        Intent intent = new Intent(this, GamePageLarge.class);
+    public void highScore(View view) {
+        Intent intent = new Intent(this, ScorePage.class);
         finish();
         startActivity(intent);
     }
